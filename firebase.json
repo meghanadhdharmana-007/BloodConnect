@@ -1,0 +1,58 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "house-rent-757ad",
+          "appId": "1:52067310927:android:1103f42256dca1e064f93a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "house-rent-757ad",
+          "configurations": {
+            "android": "1:52067310927:android:1103f42256dca1e064f93a",
+            "ios": "1:52067310927:ios:cc0a13b3482acbcd64f93a",
+            "web": "1:52067310927:web:c7664ef153a2de6864f93a",
+            "windows": "1:52067310927:web:354a7aff2b79bd0364f93a"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ],
+  "hosting": [
+  {
+    "target": "bloodconnect",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+]
+}

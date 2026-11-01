@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "bloodconnect-1d6ea"
+  },
+  "targets": {
+    "bloodconnect-1d6ea": {
+      "hosting": {
+        "bloodconnect": [
+          "bloodconnect-app-34858"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

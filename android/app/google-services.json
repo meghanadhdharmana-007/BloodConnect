@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "52067310927",
+    "project_id": "house-rent-757ad",
+    "storage_bucket": "house-rent-757ad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52067310927:android:1103f42256dca1e064f93a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52067310927-mfithaksbsfpuj1l8vpk4j3tndn311cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXA94RFSOdhBXRCbartd-p8oNpcc3NB5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52067310927-mfithaksbsfpuj1l8vpk4j3tndn311cu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "52067310927-2ag7v3nrpb7eabqbc4701qgq39hebnjr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterApplication1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
